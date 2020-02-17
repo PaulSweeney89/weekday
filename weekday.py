@@ -19,7 +19,7 @@ days_of_the_week = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday", 4:"Fri
 print("Today is", days_of_the_week[weekday])
 
 # if statement to returning weekday string (Monday to Friday)
-if weekday in range(0,5):
+if weekday in range(0,4):
     print("Yes, unfortunately today is a weekday.")
 
 # else statement to return weekend statement (Saturday & Sunday)
