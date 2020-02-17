@@ -5,7 +5,7 @@
 # import datetime module
 import datetime 
 
-# use the now() method of the datetime class for today's date & time
+# use the now() method of the datetime class for the current date & time
 now = datetime.datetime.now()
 
 # use weekday() method to return day of the week
@@ -13,7 +13,7 @@ now = datetime.datetime.now()
 weekday = now.weekday()
 
 # dictonary for the days of the week
-days_of_the_week = {0:"Monday", 1:"Tuesday", 3:"Wednesday", 4:"Thursday", 5:"Friday", 6:"Saturday", 7:"Sunday"}
+days_of_the_week = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday", 4:"Friday", 5:"Saturday", 6:"Sunday"}
 
 # print day of the week in text
 print("Today is", days_of_the_week[weekday])
