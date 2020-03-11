@@ -21,6 +21,11 @@ weekday = now.weekday()
 ```
 days_of_the_week = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday", 4:"Friday", 5:"Saturday", 6:"Sunday"}
 ```
+- Alternatively use a tuple instead of a dictionary to return the current day of the week, more efficient approach than using a dictionary. 
+(Feedback from Andrew 11.03.2020)
+```
+days_of_the_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+```
 - Output day of the week.
 ```
 print("Today is", days_of_the_week[weekday])

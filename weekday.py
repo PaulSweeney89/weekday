@@ -12,8 +12,8 @@ now = datetime.datetime.now()
 # 0 = Monday ..... 7 = Sunday
 weekday = now.weekday()
 
-# dictonary for the days of the week
-days_of_the_week = {0:"Monday", 1:"Tuesday", 2:"Wednesday", 3:"Thursday", 4:"Friday", 5:"Saturday", 6:"Sunday"}
+# updated to tuple for the days of the week; more efficent than using a dictionary (feedback from Andrew)
+days_of_the_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 
 # print day of the week in text
 print("Today is", days_of_the_week[weekday])
