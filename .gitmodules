@@ -1,0 +1,3 @@
+[submodule "weekday"]
+	path = weekday
+	url = https://github.com/PaulSweeney89/weekday
